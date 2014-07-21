@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>Active Land - Catalogue</title>
+    <title>Active Land - Product details</title>
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon"/>
     <!--<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>-->
     <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|PT+Sans+Narrow:400,700|PT+Sans+Caption&subset=latin,cyrillic'
@@ -25,9 +25,9 @@
         <div id="header">
             <div id="logo-small"></div>
             <div id="user-greeting">Здравствуйте, <span><a href="#">Игорь Толмацкий</a></span>!</div>
-            <div id="cart-icon">
+            <a href="cart.html" id="cart-icon">
                 <div id="cart-items-count">3</div>
-            </div>
+            </a>
             <div class="socials">
                 <div class="social instagram"></div>
                 <div class="social fb"></div>
@@ -45,10 +45,10 @@
 </div>
 <div id="page">
     <div id="menu-panel">
-        <div id="logo"></div>
+        <a id="logo" href="index.html"></a>
         <div id="menu-items">
             <ul>
-                <li class="catalog"><a href="#">Вело-каталог</a></li>
+                <li class="catalog"><a href="catalogue.html">Вело-каталог</a></li>
                 <li><a href="#">Новости и события</a></li>
                 <li><a href="#">Гарантия, оплата и доставка</a></li>
                 <li class="rent"><a href="#">Вело-прокат</a></li>
@@ -63,7 +63,7 @@
     </div>
 
 
-    <div style="height: 50px"></div>
+
     <div class="site-title">
         <div class="container clearfix block">
             <div class="block first-block">
@@ -121,46 +121,131 @@
             </div>
             <div class="clearfix"></div>
             <div id="description">
-                Этот стильный беговел позволит ребенку развивать способность поддерживать баланс, отработать двигательные навыки и технику координации движений.
-                Езда на беговеле принесет много удовольствия. Ваш ребенок сможет поддерживать себя ногами в таком же положении как и на обычном велосипеде,
+                Этот стильный беговел позволит ребенку развивать способность поддерживать баланс, отработать
+                двигательные навыки и технику координации движений.
+                Езда на беговеле принесет много удовольствия. Ваш ребенок сможет поддерживать себя ногами в таком же
+                положении как и на обычном велосипеде,
                 тем самым сохраняя равновесие.
             </div>
             <div id="product-attributes">
                 <div class="attribute">
                     <div class="title">Размер колеса, дюймы</div>
-                    <div class="value"><span class="tag base">Базовый</span>20</div>
-                </div>
-                <div class="attribute alternative-item">
-                    <div class="title">1234</div>
-                    <div class="value"><span class="tag middle">Средний</span>123</div>
-                </div>
-                <div class="attribute">
-                    <div class="title">1234</div>
-                    <div class="value"><span class="tag prof">Профи</span>124</div>
-                </div>
-                <div class="attribute alternative-item">
-                    <div class="title">1234</div>
-                    <div class="value">1234</div>
-                </div>
-                <div class="attribute">
-                    <div class="title">1234</div>
-                    <div class="value">1234</div>
-                </div>
-                <div class="attribute alternative-item">
-                    <div class="title">1234</div>
-                    <div class="value">2134</div>
+                    <div class="value">
+                        <span class="tag base">Базовый</span>
+                        <div class="value-text">20</div>
+                    </div>
+                    <div class="attribute alternative-item">
+                        <div class="title">Цепь</div>
+                        <div class="value">
+                            <span class="tag middle">Средний</span>
+                            <div class="value-text">KMZ-1000</div>
+                        </div>
+                    </div>
+                    <div class="attribute">
+                        <div class="title">Колеса</div>
+                        <div class="value">
+                            <span class="tag prof">Профи</span>
+                            <div class="value-text">GOODYEAR</div>
+                        </div>
+                    </div>
+                    <div class="attribute alternative-item">
+                        <div class="title">Втулки</div>
+                        <div class="value">
+                            <span class="tag base">Базовый</span>
+                            <div class="value-text">Megathrone XZ</div>
+                        </div>
+                    </div>
+                    <div class="attribute">
+                        <div class="title">Рама</div>
+                        <div class="value">
+                            <span class="tag middle">Средний</span>
+                            <div class="value-text">BULLdoggio</div>
+                        </div>
+                    </div>
+                    <div class="attribute alternative-item">
+                        <div class="title">Покрышки</div>
+                        <div class="value">
+                            <span class="tag prof">Профи</span>
+                            <div class="value-text">Kenda 20110</div>
+                        </div>
+                    </div>
+                    <div class="attribute alternative-item">
+                        <div class="title">Седло</div>
+                        <div class="value">
+                            <span class="tag prof">Профи</span>
+                            <div class="value-text">Vedlo</div>
+                        </div>
+                    </div>
+                    <div class="attribute alternative-item">
+                        <div class="title">Дополнительно</div>
+                        <div class="value">
+                            + семь аксессуаров на выбор
+                        </div>
+                    </div>
                 </div>
             </div>
+            <div class="clearfix"></div>
         </div>
         <div class="clearfix"></div>
     </div>
 
-</div>
-<div id="footer">
-    <div id="footer-inner">
-        <div id="copyright">&copy; 2014<br>Веломагазин Григория Войтишина</div>
-        <div id="em-studio">Сделано в <br><a href="http://eugene-miller.com">Студии Евгения Миллера</a></div>
+
+    <div class="site-title">
+        <div class="container clearfix block">
+            <div class="block first-block">
+                <!--<span>-->
+                <!--<a href="#">Вело-каталог</a> &raquo; <a href="#">Шоссейные</a> &raquo;-->
+                <!--</span>-->
+            </div>
+            <div class="block first-block-tail"></div>
+            <div class="block title">К покупке пригодяться:</div>
+            <div class="block bike"></div>
+            <div class="block">
+                <div class="stretch-element">
+                    <div class="table-cell after-bike">
+                        &nbsp;
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block after-bike-fading"></div>
     </div>
+
+<div id="tying-products">
+    <div class="product-preview">
+        <div class="image">
+            <img src="img/tmp/bike-image.png">
+        </div>
+        <div class="discount"></div>
+        <div class="title-price">
+            <div class="title">
+                    <span>
+                    <a href="#">Marin Supersized 14"</a>
+                        </span>
+            </div>
+            <div class="price">
+                    <span>
+                    2,330<sup>грн</sup>
+                        </span>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
 </div>
+
+    <div id="banners">
+        <div class="banner" id="banner1"></div>
+        <div class="banner" id="banner2"></div>
+    </div>
+
+
+</div>
+    <div id="footer">
+        <div id="footer-inner">
+            <div id="copyright">&copy; 2014<br>Веломагазин Григория Войтишина</div>
+            <div id="em-studio">Сделано в <br><a href="http://eugene-miller.com">Студии Евгения Миллера</a></div>
+        </div>
+    </div>
+
 </body>
 </html>

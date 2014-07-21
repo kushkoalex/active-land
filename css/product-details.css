@@ -158,6 +158,8 @@
     color: #ffffff;
     font-weight: 400;
     margin-right: 10px;
+    position: absolute;
+    margin-top: 10px;
 }
 
 .tag.base {
@@ -170,4 +172,15 @@
 
 .tag.prof {
     background: url("../img/tag-prof.png");
+}
+
+
+#product-attributes .attribute .value .value-text
+{
+    position: absolute;
+    margin-left: 60px;
+}
+
+#tying-products {
+    margin: 40px -19px 90px;
 }

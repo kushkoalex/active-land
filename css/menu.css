@@ -17,6 +17,7 @@
     background: url("../img/logo.png");
     margin-left: 20px;
     margin-top: 22px;
+    display: block;
 }
 
 #menu-items {

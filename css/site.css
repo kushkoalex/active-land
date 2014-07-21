@@ -20,6 +20,7 @@ body {
 #main-banner {
     height: 233px;
     background: url("../img/main-banner.png") no-repeat;
+    margin-bottom: 50px;
 }
 
 #main-page-banner
