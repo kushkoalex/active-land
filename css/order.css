@@ -1,0 +1,70 @@
+.order-fields
+{
+    margin-top: 50px;
+    margin-bottom: 60px;
+
+}
+
+.order-fields .field{
+    margin-bottom: 28px;
+}
+
+.order-fields .title
+{
+    font-family: 'PT Sans',serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #00aeef;
+    font-size: 14px;
+    text-transform: uppercase;
+    float: left;
+    width: 154px;
+    height: 28px;
+    padding-top: 12px;
+}
+
+.order-fields .title.double-row
+{
+    padding-top: 2px;
+    height: 38px;
+}
+
+.order-fields .title span
+{
+    font-family: 'PT Sans',serif;
+    font-size: 11px;
+    color: #c1c1c1;
+    text-transform: none;
+    font-style: normal;
+    font-weight: 400;
+    position: absolute;
+}
+
+.order-fields .input
+{
+    float: left;
+    height: 40px;
+    width: 393px;
+    text-align: left;
+}
+
+.order-fields .input input
+{
+    height: 41px;
+    border: 1px solid #b5b5b5;
+    border-radius: 6px;
+    outline: none;
+    padding:0 11px;
+    font-family: 'PT Sans',serif;
+    font-size: 19px;
+    color: #606060;
+    width: 370px;
+}
+
+#subscribe-radio
+{
+    float: left;
+    display: block;
+    margin-top: 15px;
+    margin-left: 30px;
+}
