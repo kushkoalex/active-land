@@ -66,7 +66,7 @@
             <div class="block first-block">
             </div>
             <div class="block first-block-tail"></div>
-            <div class="block title">Оформляем заказ, шаг 1</div>
+            <div class="block title">Оформляем заказ, шаг 2</div>
             <div class="block bike"></div>
             <div class="block">
                 <div class="stretch-element">
@@ -81,8 +81,8 @@
     <div class="order-fields">
         <div class="field">
             <div class="title">имя и фамилия:</div>
-            <div class="input">
-                <input type="text" value="Федор Константинопольский">
+            <div class="order-value">
+                Федор Константинопольский
             </div>
             <div class="clearfix"></div>
         </div>
@@ -90,21 +90,15 @@
             <div class="title">номер мобильного:<br>
                 <span>Например: (097) 999-22-33</span>
             </div>
-            <div class="input"><input type="text"></div>
+            <div class="order-value">
+                (093) 431-55-55
+            </div>
             <div class="clearfix"></div>
         </div>
         <div class="field">
             <div class="title">емейл-адрес:</div>
-            <div class="input">
-                <input type="text">
-            </div>
-            <div class="radio subscribe">
-                <ul>
-                    <li class="r"><input type="radio" class="radiobutton" id="subscribe-radio" value="asd"></li>
-                    <li class="radio-title">
-                        Хочу платить меньше<br> за покупки в "Эктив Ленде"
-                    </li>
-                </ul>
+            <div class="order-value">
+                fedya@yandex.ru
             </div>
             <div class="clearfix"></div>
         </div>
@@ -128,52 +122,39 @@
     </div>
 
     <div class="order-fields">
-
         <div class="field">
             <div class="title double-row">доставка или самовывоз?</div>
-            <div class="radio">
-                <ul>
-                    <li class="r">
-                        <input class="radiobutton" type="radio" name="delivery-method" value="delivery">
-                    </li>
-                    <li class="radio-title">
-                        Выбираю<br>доставку
-                    </li>
-                    <li class="r"><input class="radiobutton" type="radio" name="delivery-method" value="takeout"></li>
-                    <li class="radio-title">Выбираю<br>самовывоз</li>
-                </ul>
+            <div class="order-value">
+                Выбираю доставку
             </div>
             <div class="clearfix"></div>
         </div>
         <div class="field">
             <div class="title">Город доставки:<br>
             </div>
-            <div class="input"><input type="text"></div>
+            <div class="order-value">
+                Киев
+            </div>
             <div class="clearfix"></div>
         </div>
         <div class="field">
             <div class="title">улица:</div>
-            <div class="input"><input type="text"></div>
+            <div class="order-value">
+                Красноярская
+            </div>
             <div class="clearfix"></div>
         </div>
         <div class="field">
             <div class="title double-row">№ дома и<br>квартиры (офиса):</div>
-            <div class="input"><input type="text"></div>
+            <div class="order-value">
+                21/2, кв 16
+            </div>
             <div class="clearfix"></div>
         </div>
         <div class="field">
             <div class="title">Способ оплаты:</div>
-            <div class="radio">
-                <ul>
-                    <li class="r">
-                        <input class="radiobutton" type="radio" name="payment-method" value="cache">
-                    </li>
-                    <li class="radio-title">
-                        Наличными<br> при доставке
-                    </li>
-                    <li class="r"><input class="radiobutton" type="radio" name="payment-method" value="card"></li>
-                    <li class="radio-title one-line">Оплата карточкой</li>
-                </ul>
+            <div class="order-value">
+               Оплачиваю наличными курьеру при доставке
             </div>
             <div class="clearfix"></div>
         </div>
@@ -181,7 +162,7 @@
 
     <div id="order-done-wrapper">
         <div id="order-done">
-            <a href="order-step-2.html">Готово!</a>
+            <a href="order-step-2.html">Всё верно</a>
         </div>
     </div>
 
