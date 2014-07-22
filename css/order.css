@@ -46,7 +46,49 @@
     height: 40px;
     width: 393px;
     text-align: left;
+
 }
+
+.order-fields .radio
+{
+    float: left;
+    height: 40px;
+    width: 400px;
+    text-align: left;
+    font-family: 'PT Sans',serif;
+    font-size: 14px;
+}
+
+.order-fields .radio.subscribe{
+    padding-left: 50px;
+}
+
+.order-fields .radio ul li
+{
+    list-style: none;
+    display: inline-block;
+    height: 40px;
+    vertical-align: top;
+}
+
+.order-fields .radio ul li.r
+{
+    padding-top: 10px;
+    height: 30px;
+}
+
+.order-fields .radio ul li.radio-title
+{
+    margin-right: 50px;
+    padding-left: 7px;
+}
+
+.order-fields .radio ul li.radio-title.one-line
+{
+    padding-top: 10px;
+    height: 30px;
+}
+
 
 .order-fields .input input
 {
@@ -63,8 +105,11 @@
 
 #subscribe-radio
 {
-    float: left;
-    display: block;
-    margin-top: 15px;
-    margin-left: 30px;
+
+}
+
+.radiobutton
+{
+    height: 20px;
+    width: 20px;
 }

@@ -29,7 +29,6 @@
             <a href="cart.html" id="cart-icon">
                 <div id="cart-items-count">3</div>
             </a>
-
             <div class="socials">
                 <div class="social instagram"></div>
                 <div class="social fb"></div>
@@ -61,7 +60,6 @@
 
         </div>
     </div>
-
     <div class="site-title">
         <div class="container clearfix block">
             <div class="block first-block">
@@ -79,10 +77,7 @@
         </div>
         <div class="block after-bike-fading"></div>
     </div>
-
-
     <div class="order-fields">
-
         <div class="field">
             <div class="title">имя и фамилия:</div>
             <div class="input">
@@ -99,15 +94,20 @@
         </div>
         <div class="field">
             <div class="title">емейл-адрес:</div>
-            <div class="input"><input type="text"></div>
-            <input type="radio" id="subscribe-radio">
+            <div class="input">
+                <input type="text">
+            </div>
+            <div class="radio subscribe">
+                <ul>
+                    <li class="r"><input type="radio" class="radiobutton" id="subscribe-radio" value="asd"></li>
+                    <li class="radio-title">
+                        Хочу платить меньше<br> за покупки в "Эктив Ленде"
+                    </li>
+                </ul>
+            </div>
             <div class="clearfix"></div>
         </div>
-
     </div>
-
-
-
     <div class="site-title">
         <div class="container clearfix block">
             <div class="block first-block">
@@ -130,8 +130,17 @@
 
         <div class="field">
             <div class="title double-row">доставка или самовывоз?</div>
-            <div class="input">
-                <input type="text" value="Федор Константинопольский">
+            <div class="radio">
+                <ul>
+                    <li class="r">
+                        <input class="radiobutton" type="radio" name="delivery-method" value="delivery">
+                    </li>
+                    <li class="radio-title">
+                        Наличными<br> при доставке
+                    </li>
+                    <li class="r"><input class="radiobutton" type="radio" name="delivery-method" value="takeout"></li>
+                    <li class="radio-title one-line">Оплата карточкой</li>
+                </ul>
             </div>
             <div class="clearfix"></div>
         </div>
@@ -144,19 +153,30 @@
         <div class="field">
             <div class="title">улица:</div>
             <div class="input"><input type="text"></div>
-            <input type="radio" id="">
             <div class="clearfix"></div>
         </div>
         <div class="field">
             <div class="title double-row">№ дома и<br>квартиры (офиса):</div>
             <div class="input"><input type="text"></div>
-            <input type="radio" id="">
             <div class="clearfix"></div>
         </div>
-
+        <div class="field">
+            <div class="title">Способ оплаты:</div>
+            <div class="radio">
+                <ul>
+                    <li class="r">
+                        <input class="radiobutton" type="radio" name="payment-method" value="cache">
+                    </li>
+                    <li class="radio-title">
+                        Наличными<br> при доставке
+                    </li>
+                        <li class="r"><input class="radiobutton" type="radio" name="payment-method" value="card"></li>
+                        <li class="radio-title one-line">Оплата карточкой</li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
     </div>
-
-
 </div>
 </body>
 </html>
