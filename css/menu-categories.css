@@ -9,7 +9,6 @@ body
     border-radius: 6px;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
 }
 
 #category-menu li:last-child
@@ -39,17 +38,41 @@ body
 
 }
 
-#category-menu ul
-{
-    /*display: none;*/
-    position: absolute;
-    margin-top: -31px;
-}
-
-.category-menu-wrapper
+.menu-group-wrapper
 {
     border-radius: 9px;
     padding: 3px;
     display: table-cell;
     background-color: #ffffff;
+}
+
+.menu-group-wrapper.sub-menu
+{
+    display: none;
+    position: absolute;
+    margin-top: -31px;
+    /*display: none;*/
+}
+
+.menu-group-wrapper.sub-menu.show
+{
+    display: block;
+}
+
+.menu-group-wrapper.sub-menu li div.arrow
+{
+    display: none;
+    border: none;
+}
+
+.menu-group-wrapper.sub-menu li:first-child div.arrow
+{
+    width: 8px;
+    height: 10px;
+    background: url("../img/menu-item-arrow-left.png");
+    display: block;
+    position: absolute;
+    border: none !important;
+    margin-left: -10px !important;
+    /*padding-left: 23px !important;*/
 }
