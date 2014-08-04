@@ -19,22 +19,26 @@ body
 #category-menu li
 {
     list-style: none;
-    padding: 13px 0;
+    padding:0;
     font-family: 'PT Sans', serif;
     font-size: 13px;
     text-transform: uppercase;
     color: #008abd;
     border-bottom: 1px solid #a8ddf3;
     margin: 0 3px;
-
 }
 
 #category-menu li a
 {
     text-decoration: none;
     color: inherit;
-    padding: 0 19px;
+    padding: 13px 19px;
     display: block;
+}
+
+#category-menu li a:hover
+{
+    text-decoration: underline;
 
 }
 
@@ -74,5 +78,6 @@ body
     position: absolute;
     border: none !important;
     margin-left: -10px !important;
+    margin-top: 15px;
     /*padding-left: 23px !important;*/
 }
